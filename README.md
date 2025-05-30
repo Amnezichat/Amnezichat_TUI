@@ -7,16 +7,16 @@
 
 <img src="banner.png" width="1200">
 
-## Anti-forensic and secure messenger with terminal user interface
+## RAM-only secure messenger with terminal user interface
 <!-- DESCRIPTION -->
 ## Description:
 
-Amnezichat offers a highly secure and privacy-focused messaging experience by ensuring that no logs are retained and all message data is stored exclusively in the server's RAM. This approach significantly enhances user privacy because RAM storage is inherently volatile data is automatically erased when the server is powered down or restarted, leaving no trace of already end-to-end encrypted past communications.
+RAM-only secure messengers offer enhanced privacy and security by minimizing data persistence and exposure. A RAM-only system ensures that all user data, including messages and encryption keys, are stored temporarily in volatile memory (RAM) rather than on a hard drive, which significantly reduces the risk of data retrieval after shutdown or compromise.
 
 <!-- FEATURES -->
 ## Features:
 
-- Client-side quantum-resistant E2E message encryption
+- Quantum-resistant E2E message encryption
 
 - Forward and backward secrecy for one-to-one chats
 
@@ -66,7 +66,7 @@ Amnezichat offers a highly secure and privacy-focused messaging experience by en
     sudo apt install curl build-essential git tor xterm
     sudo systemctl enable --now tor.service
     curl https://sh.rustup.rs -sSf | sh -s -- -y
-    git clone https://git.disroot.org/UmutCamliyurt/Amnezichat_TUI.git
+    git clone https://git.disroot.org/Amnezichat/Amnezichat_TUI.git
     cd Amnezichat_TUI/client/
     cargo build --release
     cargo run --release
@@ -75,7 +75,7 @@ Amnezichat offers a highly secure and privacy-focused messaging experience by en
 
     sudo apt update
     sudo apt install docker.io git
-    git clone https://git.disroot.org/UmutCamliyurt/Amnezichat_TUI.git
+    git clone https://git.disroot.org/Amnezichat/Amnezichat_TUI.git
     cd Amnezichat_TUI/client/
     docker build --network=host -t amnezichat_tui .
     xhost +local:docker
@@ -101,16 +101,13 @@ Amnezichat offers a highly secure and privacy-focused messaging experience by en
 
 You can access **Amnezichat_TUI** source code from multiple mirror repositories:
 
-- 🔗 **[Disroot Main Repository](https://git.disroot.org/UmutCamliyurt/Amnezichat_TUI)**
-- 🔗 **[Codeberg Mirror](https://codeberg.org/umutcamliyurt/Amnezichat_TUI)**
-- 🔗 **[GitHub Mirror](https://github.com/umutcamliyurt/Amnezichat_TUI)**
+- 🔗 **[Disroot Main Repository](https://git.disroot.org/Amnezichat/Amnezichat_TUI)**
+- 🔗 **[GitHub Mirror](https://github.com/Amnezichat/Amnezichat_TUI)**
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the GPLv3 License. See `LICENSE` for more information.
-
-## <a href="CONTRIBUTORS.md">Contributors</a>
 
 ## Donate to support development of this project!
 
