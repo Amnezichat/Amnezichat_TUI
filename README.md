@@ -66,7 +66,7 @@ Amnezichat offers a highly secure and privacy-focused messaging experience by en
     sudo apt install curl build-essential git tor xterm
     sudo systemctl enable --now tor.service
     curl https://sh.rustup.rs -sSf | sh -s -- -y
-    git clone https://git.disroot.org/UmutCamliyurt/Amnezichat_TUI.git
+    git clone https://git.disroot.org/Amnezichat/Amnezichat_TUI.git
     cd Amnezichat_TUI/client/
     cargo build --release
     cargo run --release
@@ -75,7 +75,7 @@ Amnezichat offers a highly secure and privacy-focused messaging experience by en
 
     sudo apt update
     sudo apt install docker.io git
-    git clone https://git.disroot.org/UmutCamliyurt/Amnezichat_TUI.git
+    git clone https://git.disroot.org/Amnezichat/Amnezichat_TUI.git
     cd Amnezichat_TUI/client/
     docker build --network=host -t amnezichat_tui .
     xhost +local:docker
@@ -101,8 +101,8 @@ Amnezichat offers a highly secure and privacy-focused messaging experience by en
 
 You can access **Amnezichat_TUI** source code from multiple mirror repositories:
 
-- 🔗 **[Disroot Main Repository](https://git.disroot.org/UmutCamliyurt/Amnezichat_TUI)**
-- 🔗 **[GitHub Mirror](https://github.com/umutcamliyurt/Amnezichat_TUI)**
+- 🔗 **[Disroot Main Repository](https://git.disroot.org/Amnezichat/Amnezichat_TUI)**
+- 🔗 **[GitHub Mirror](https://github.com/Amnezichat/Amnezichat_TUI)**
 
 <!-- LICENSE -->
 ## License
